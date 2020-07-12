@@ -7,7 +7,7 @@ https://templatemo.com/tm-520-highway
 */
 
 body {
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -17,15 +17,15 @@ body::-webkit-scrollbar {
 }
 /* Add a thumb */
 body::-webkit-scrollbar-thumb {
-    background: rgba(250, 250, 250, 0.5);
+  background: rgba(250, 250, 250, 0.5);
 }
 
-body, html {
+body,
+html {
   height: 100%;
   min-height: 100%;
   overflow-x: hidden;
 }
-
 
 .page-heading {
   background-image: url(../img/heading_bg.png);
@@ -41,7 +41,7 @@ body, html {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 1px;
-  background-color: rgba(250,250,250,0.1);
+  background-color: rgba(250, 250, 250, 0.1);
   display: inline-block;
   margin-bottom: 0;
   margin-top: 220px;
@@ -52,8 +52,6 @@ body, html {
   font-style: normal;
   font-weight: 200;
 }
-
-
 
 /* Nav Bar */
 
@@ -77,14 +75,14 @@ nav .logo em {
 }
 
 nav {
-  background: rgba(250,250,250,0.2);
+  background: rgba(250, 250, 250, 0.2);
   height: 80px;
   position: fixed;
   width: 100%;
   left: 0;
   top: 0;
   z-index: 300;
-  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .menu-icon {
@@ -111,7 +109,7 @@ nav {
   left: 15%;
   top: 50%;
   display: block;
-  content: '';
+  content: "";
   transition: all 0.5s ease-in-out;
 }
 
@@ -126,7 +124,7 @@ nav {
 }
 
 .menu-icon.active {
-  background: rgba(250,250,250,0.2);
+  background: rgba(250, 250, 250, 0.2);
 }
 
 .menu-icon.active span {
@@ -218,9 +216,8 @@ nav {
 }
 
 .overlay-menu ul li a:hover {
-  color: rgba(250,250,250,0.5);
+  color: rgba(250, 250, 250, 0.5);
 }
-
 
 .overlay-menu p {
   margin-top: 60px;
@@ -232,9 +229,7 @@ nav {
   text-align: center;
 }
 
-
-
-#video-container  {
+#video-container {
   position: relative;
   width: 100%;
   height: 100%;
@@ -254,7 +249,7 @@ nav {
 
 #video-container .video-overlay {
   z-index: 9999;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
 }
 
@@ -288,7 +283,6 @@ nav {
   font-weight: 200;
 }
 
-
 #video-container .video-content .inner p {
   color: #fff;
   font-size: 22px;
@@ -308,11 +302,11 @@ nav {
 }
 
 .full-screen-portfolio .container-fluid,
-.full-screen-portfolio .col-md-4, .col-md-8 {
+.full-screen-portfolio .col-md-4,
+.col-md-8 {
   padding-left: 0px;
   padding-right: 0px;
 }
-
 
 .portfolio-item img {
   width: 100%;
@@ -323,15 +317,13 @@ nav {
   position: relative;
 }
 
-
 .portfolio-item .hover-effect .hover-content {
-    position: absolute;
-    text-align: left;
-    width: 100%;
-    bottom: 0;
-    left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
-
 
 .full-screen-portfolio .portfolio-item h1 {
   position: relative;
@@ -342,45 +334,42 @@ nav {
   padding-left: 20px;
   line-height: 15px;
   transform: translateY(25px);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   letter-spacing: 0.5px;
- }
+}
 
- .full-screen-portfolio .portfolio-item em {
+.full-screen-portfolio .portfolio-item em {
   font-style: normal;
   font-weight: 200;
- }
+}
 
 .full-screen-portfolio .portfolio-item:hover h1 {
   transform: translateY(0);
- }
+}
 
 .full-screen-portfolio .portfolio-item p {
   padding-left: 20px;
-  font-weight: 300!important;
+  font-weight: 300 !important;
   letter-spacing: 0.5px;
   font-size: 14px;
   color: #fff;
   opacity: 0;
   transform: translateY(10px);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   text-transform: uppercase;
- }
+}
 
- .full-screen-portfolio .portfolio-item {
- text-align: center;
- line-height: 150%;
- text-transform: lowercase;
- cursor: pointer;
+.full-screen-portfolio .portfolio-item {
+  text-align: center;
+  line-height: 150%;
+  text-transform: lowercase;
+  cursor: pointer;
 }
 
 .full-screen-portfolio .portfolio-item:hover p {
   opacity: 1;
   transform: translateY(0);
- }
-
-
-
+}
 
 .popup-icon {
   position: fixed;
@@ -405,7 +394,7 @@ nav {
 
 /* Modal */
 .modal {
-  background-color: rgba(0,0,0,.95);
+  background-color: rgba(0, 0, 0, 0.95);
   display: none;
   overflow: auto;
   position: fixed;
@@ -432,10 +421,10 @@ nav {
   background-color: transparent;
 }
 .modal-animated-in {
-  animation: totop-in .6s ease;
+  animation: totop-in 0.6s ease;
 }
 .modal-animated-out {
-  animation: totop-out .6s ease forwards;
+  animation: totop-out 0.6s ease forwards;
 }
 .modal-header {
   border-bottom: none;
@@ -528,8 +517,8 @@ nav {
 }
 
 .modal-body button:hover {
-  color: rgba(250,250,250,0.5);
-  border-color: rgba(250,250,250,0.5);
+  color: rgba(250, 250, 250, 0.5);
+  border-color: rgba(250, 250, 250, 0.5);
   outline: none;
 }
 
@@ -542,7 +531,7 @@ nav {
   100% {
     top: 0%;
     opacity: 1;
-  }  
+  }
 }
 
 @keyframes totop-out {
@@ -553,10 +542,8 @@ nav {
   100% {
     top: -100%;
     opacity: 0;
-  }  
+  }
 }
-
-
 
 footer {
   width: 100%;
@@ -584,14 +571,13 @@ footer a:hover {
   color: #aaa;
 }
 
-
-
 .masonry-portfolio .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-.masonry .col-md-4, .masonry .col-md-8 {
+.masonry .col-md-4,
+.masonry .col-md-8 {
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -625,13 +611,12 @@ footer a:hover {
 }
 
 .masonry .item .hover-effect .hover-content {
-    position: absolute;
-    text-align: left;
-    width: 100%;
-    bottom: 5px;
-    left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  bottom: 5px;
+  left: 0;
 }
-
 
 .masonry .item h1 {
   position: relative;
@@ -642,45 +627,42 @@ footer a:hover {
   padding-left: 20px;
   line-height: 15px;
   transform: translateY(25px);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   letter-spacing: 0.5px;
- }
+}
 
 .masonry .item em {
   font-style: normal;
   font-weight: 200;
- }
+}
 
 .masonry .item:hover h1 {
   transform: translateY(0);
- }
+}
 
 .masonry .item p {
   padding-left: 20px;
-  font-weight: 300!important;
+  font-weight: 300 !important;
   letter-spacing: 0.5px;
   font-size: 14px;
   color: #fff;
   opacity: 0;
   transform: translateY(10px);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   text-transform: uppercase;
- }
+}
 
 .masonry .item {
- text-align: center;
- line-height: 150%;
- text-transform: lowercase;
- cursor: pointer;
+  text-align: center;
+  line-height: 150%;
+  text-transform: lowercase;
+  cursor: pointer;
 }
 
 .masonry .item:hover p {
   opacity: 1;
   transform: translateY(0);
- }
-
-
-
+}
 
 .grid-portfolio {
   padding: 65px 0px;
@@ -692,13 +674,12 @@ footer a:hover {
 }
 
 .portfolio-item .hover-effect .hover-content {
-    position: absolute;
-    text-align: left;
-    width: 100%;
-    bottom: 5px;
-    left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  bottom: 5px;
+  left: 0;
 }
-
 
 .grid-portfolio .portfolio-item h1 {
   position: relative;
@@ -709,41 +690,41 @@ footer a:hover {
   padding-left: 20px;
   line-height: 15px;
   transform: translateY(25px);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   letter-spacing: 0.5px;
- }
+}
 
- .grid-portfolio .portfolio-item em {
+.grid-portfolio .portfolio-item em {
   font-style: normal;
   font-weight: 200;
- }
+}
 
 .grid-portfolio .portfolio-item:hover h1 {
   transform: translateY(0);
- }
+}
 
 .grid-portfolio .portfolio-item p {
   padding-left: 20px;
-  font-weight: 300!important;
+  font-weight: 300 !important;
   letter-spacing: 0.5px;
   font-size: 14px;
   color: #fff;
   opacity: 0;
   transform: translateY(10px);
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   text-transform: uppercase;
- }
+}
 
 .grid-portfolio .portfolio-item:hover p {
   opacity: 1;
   transform: translateY(0);
- }
+}
 
- .grid-portfolio .load-more-button {
+.grid-portfolio .load-more-button {
   margin-top: 15px;
- }
+}
 
- .grid-portfolio .load-more-button a {
+.grid-portfolio .load-more-button a {
   width: 100%;
   height: 80px;
   display: inline-block;
@@ -756,38 +737,35 @@ footer a:hover {
   color: #fff;
   background-color: #313131;
   transition: all 0.5s;
- }
+}
 
- .grid-portfolio .load-more-button a:hover {
-  color: rgba(250,250,250,0.5);
- }
+.grid-portfolio .load-more-button a:hover {
+  color: rgba(250, 250, 250, 0.5);
+}
 
-
-
-
- .services {
+.services {
   background-color: #232323;
   padding: 65px 0px;
- }
+}
 
- .services .service-item {
+.services .service-item {
   margin: 15px 0px;
   padding: 20px;
   text-align: center;
   transition: all 0.5s;
- }
+}
 
-  .services .service-item:hover {
-    background-color: #313131;
-  }
+.services .service-item:hover {
+  background-color: #313131;
+}
 
- .services .service-item .icon {
+.services .service-item .icon {
   width: 50px;
   height: 50px;
   text-align: center;
   display: inline-block;
   line-height: 50px;
- }
+}
 
 .services .service-item .icon img {
   max-width: 100%;
@@ -809,8 +787,6 @@ footer a:hover {
   line-height: 28px;
 }
 
-
-
 .more-about-us {
   background-image: url(../img/about_us.png);
   background-repeat: no-repeat;
@@ -822,7 +798,7 @@ footer a:hover {
 }
 
 .more-about-us .content {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   text-align: left;
   padding: 150px 60px;
   color: #fff;
@@ -871,8 +847,6 @@ footer a:hover {
 .more-about-us .content .simple-btn a:hover {
   opacity: 0.5;
 }
-
-
 
 .pricing-tables {
   padding: 65px 0px;
@@ -945,23 +919,22 @@ footer a:hover {
   background-color: #f4dd5b;
 }
 
-.pricing-tables .premium-item h4, .pricing-tables .premium-item span, .pricing-tables .premium-item ul li, .pricing-tables .premium-item .simple-btn a {
+.pricing-tables .premium-item h4,
+.pricing-tables .premium-item span,
+.pricing-tables .premium-item ul li,
+.pricing-tables .premium-item .simple-btn a {
   color: #232323;
   border-color: #232323;
 }
-
-
 
 .blog-entries {
   padding: 80px 0px;
   background-color: #232323;
 }
 
-
 .blog-entries .blog-posts {
   margin-right: 30px;
 }
-
 
 .blog-post {
   border-bottom: 1px solid #414141;
@@ -1159,7 +1132,7 @@ footer a:hover {
 }
 
 .blog-entries .search input {
-  background-color: rgba(250,250,250,0.1);
+  background-color: rgba(250, 250, 250, 0.1);
   width: 100%;
   height: 50px;
   line-height: 50px;
@@ -1183,21 +1156,25 @@ footer a:hover {
   margin-bottom: 20px;
 }
 
-.archives ul, .categories ul {
+.archives ul,
+.categories ul {
   margin-top: -5px;
   padding: 0;
   list-style: none;
 }
 
-.archives ul li, .categories ul li {
-  margin-bottom: 12px; 
+.archives ul li,
+.categories ul li {
+  margin-bottom: 12px;
 }
 
-.archives ul li:last-child, .categories ul li:last-child {
-  margin-bottom: 0px; 
+.archives ul li:last-child,
+.categories ul li:last-child {
+  margin-bottom: 0px;
 }
 
-.archives ul li a, .categories ul li a {
+.archives ul li a,
+.categories ul li a {
   font-size: 15px;
   font-weight: 200;
   color: #fff;
@@ -1206,8 +1183,8 @@ footer a:hover {
   transition: all 0.5s;
 }
 
-
-.archives ul li a:hover, .categories ul li a:hover {
+.archives ul li a:hover,
+.categories ul li a:hover {
   opacity: 0.5;
 }
 
@@ -1251,7 +1228,6 @@ footer a:hover {
   color: #f4dd5b;
 }
 
-
 .latest-gallery ul {
   padding: 0;
   margin: 0;
@@ -1266,11 +1242,11 @@ footer a:hover {
   margin-right: 1px;
 }
 
-.latest-gallery ul li:nth-child(4){
+.latest-gallery ul li:nth-child(4) {
   margin-right: 0px;
 }
 
-.latest-gallery ul li:nth-child(8){
+.latest-gallery ul li:nth-child(8) {
   margin-right: 0px;
 }
 
@@ -1284,11 +1260,7 @@ footer a:hover {
   opacity: 0.5;
 }
 
-
-
-
 @media (max-width: 530px) {
-
   .modal-header h3 {
     margin-top: 15%;
   }
@@ -1320,12 +1292,9 @@ footer a:hover {
   .more-about-us .content {
     padding: 60px 30px;
   }
-
 }
 
-
 @media (max-width: 992px) {
-
   .blog-entries .blog-posts {
     margin-right: 0px;
   }
@@ -1346,5 +1315,4 @@ footer a:hover {
   .single-blog-post .tags-share .share {
     text-align: center;
   }
-
 }
